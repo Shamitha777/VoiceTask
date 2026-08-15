@@ -1,0 +1,80 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native build folders / generated files
+ios/
+android/.gradle/
+android/local.properties
+
+# Android build outputs
+android/app/build/
+android/build/
+android/.cxx/
+
+# Kotlin
+.kotlin/
+
+# Signing / certificates / keys
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Local environment files
+.env
+.env.*
+!.env.example
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Expo Router example
+app-example/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Gradle
+.gradle/
+**/.gradle/
+
+# Android generated files
+**/captures/
+**/output-metadata.json
+
+# IDE files
+.idea/
+*.iml
+
+# VS Code local settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
