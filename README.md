@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# VoiceTask – Voice-to-Task Mobile Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+VoiceTask is a React Native mobile application that converts natural language voice commands into actionable tasks.
 
-1. Install dependencies
+The application allows users to provide voice input such as:
 
-   ```bash
-   npm install
-   ```
+> "Remind me to call John tomorrow at 5 PM."
 
-2. Start the app
+The voice command is converted into text, task details are extracted, and the resulting task is displayed in a structured format and stored locally.
 
-   ```bash
-   npx expo start
-   ```
+This project was developed as part of the Global Buzz technical evaluation assignment.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Task Option
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+**Option 2: Voice-to-Task Mobile Application**
 
-## Get a fresh project
+### Objective
 
-When you're ready, run:
+Develop a mobile application that converts voice commands into actionable tasks.
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Key Features
 
-## Learn more
+- 🎤 Voice input capture
+- 📝 Speech-to-text conversion
+- 🤖 AI-based extraction of task details
+- 📅 Date extraction
+- ⏰ Time extraction
+- ✅ Structured task display
+- 💾 Local task storage
+- 🔄 Persistent task data
+- ⏳ Loading indicators
+- ⚠️ Error handling
+- 📱 Clean and responsive mobile UI
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Example
 
-## Join the community
+### Voice Input
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```text
+Remind me to call John tomorrow at 5 PM.
