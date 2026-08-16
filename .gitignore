@@ -78,3 +78,13 @@ app-example/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
+
+
+# Local/AI configuration
+.claude/
+AGENTS.md
+CLAUDE.md
+.vscode/
+
+# Expo generated native project
+/android/
